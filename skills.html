@@ -5,6 +5,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
   <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-uf4zWDBPS1tb6L9L2+vrn9zp5yG6vGxXzJSK7g/zxU4xgtPeirDzgF5G4sCjA1E" crossorigin="anonymous">
   <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
   <style>
     /* Add your custom styles here */
@@ -48,6 +49,12 @@
     }
     .skill {
       margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+    }
+    .skill-icon {
+      font-size: 24px;
+      margin-right: 10px;
     }
     .skill-name {
       font-size: 24px;
@@ -89,22 +96,25 @@
       <div class="skills-container">
         <h1 class="skills-title">My Skills</h1>
         <div class="skill">
+          <div class="skill-icon"><i class="fas fa-code"></i></div>
           <div class="skill-name">Python Programming</div>
           <div class="skill-description">Proficient in Python for various data analysis and machine learning tasks.</div>
         </div>
         <div class="skill">
+          <div class="skill-icon"><i class="fas fa-calculator"></i></div>
           <div class="skill-name">NumPy</div>
           <div class="skill-description">Experience with NumPy for numerical computations in Python.</div>
         </div>
         <div class="skill">
+          <div class="skill-icon"><i class="fab fa-python"></i></div>
           <div class="skill-name">Pandas</div>
           <div class="skill-description">Skilled in using Pandas for data manipulation and analysis.</div>
         </div>
         <!-- Add more skills based on your list -->
-        <!-- Example: -->
         <div class="skill">
-          <div class="skill-name">Data Cleaning</div>
-          <div class="skill-description">Expertise in cleaning and preprocessing data for analysis.</div>
+          <div class="skill-icon"><i class="fas fa-database"></i></div>
+          <div class="skill-name">Database Management</div>
+          <div class="skill-description">Experience with MySQL and MongoDB for database management.</div>
         </div>
         <!-- Continue adding skills as needed -->
       </div>
@@ -118,17 +128,4 @@
     </footer>
     <div id="copyright">
       <ul>
-        <li>&copy; Untitled</li>
-        <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-      </ul>
-    </div>
-  </div>
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/jquery.scrollex.min.js"></script>
-  <script src="assets/js/jquery.scrolly.min.js"></script>
-  <script src="assets/js/browser.min.js"></script>
-  <script src="assets/js/breakpoints.min.js"></script>
-  <script src="assets/js/util.js"></script>
-  <script src="assets/js/main.js"></script>
-</body>
-</html>
+        <li>&copy; Untitled</li
