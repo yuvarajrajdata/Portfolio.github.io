@@ -48,21 +48,28 @@
       margin-bottom: 20px;
     }
     .skill {
-      margin-bottom: 15px;
+      margin-bottom: 20px;
       display: flex;
       align-items: center;
     }
     .skill-icon {
-      font-size: 24px;
-      margin-right: 10px;
+      font-size: 36px;
+      margin-right: 20px;
+      color: #007bff; /* Blue color for icons */
+    }
+    .skill-details {
+      flex: 1;
     }
     .skill-name {
       font-size: 24px;
       font-weight: bold;
+      color: #333;
+      margin-bottom: 5px;
     }
     .skill-description {
       font-size: 18px;
       line-height: 1.6;
+      color: #666;
     }
     /* Footer styles */
     footer {
@@ -97,35 +104,10 @@
         <h1 class="skills-title">My Skills</h1>
         <div class="skill">
           <div class="skill-icon"><i class="fas fa-code"></i></div>
-          <div class="skill-name">Python Programming</div>
-          <div class="skill-description">Proficient in Python for various data analysis and machine learning tasks.</div>
+          <div class="skill-details">
+            <div class="skill-name">Python Programming</div>
+            <div class="skill-description">Proficient in Python for various data analysis and machine learning tasks.</div>
+          </div>
         </div>
         <div class="skill">
-          <div class="skill-icon"><i class="fas fa-calculator"></i></div>
-          <div class="skill-name">NumPy</div>
-          <div class="skill-description">Experience with NumPy for numerical computations in Python.</div>
-        </div>
-        <div class="skill">
-          <div class="skill-icon"><i class="fab fa-python"></i></div>
-          <div class="skill-name">Pandas</div>
-          <div class="skill-description">Skilled in using Pandas for data manipulation and analysis.</div>
-        </div>
-        <!-- Add more skills based on your list -->
-        <div class="skill">
-          <div class="skill-icon"><i class="fas fa-database"></i></div>
-          <div class="skill-name">Database Management</div>
-          <div class="skill-description">Experience with MySQL and MongoDB for database management.</div>
-        </div>
-        <!-- Continue adding skills as needed -->
-      </div>
-    </div>
-    <footer id="footer">
-      <section>
-        <blockquote style="font-style: italic; color: #151010; font-size: 16px;">
-          "Be the change that you wish to see most in your world."
-        </blockquote>
-      </section>
-    </footer>
-    <div id="copyright">
-      <ul>
-        <li>&copy; Untitled</li
+          <div class
