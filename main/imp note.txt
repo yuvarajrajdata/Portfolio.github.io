@@ -1,1 +1,0 @@
-https://thecleverprogrammer.com/2023/08/07/netflix-subscriptions-forecasting-using-python/
